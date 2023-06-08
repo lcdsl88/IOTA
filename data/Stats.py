@@ -4,7 +4,7 @@ import re
 import glob
 import os
 
-path = r".\data\log"
+path = r"./data/log"
 os.chdir(path)
 
 t = []
@@ -22,7 +22,7 @@ if t:
     t = float(sum(t)/len(t))
     print("Average time of execution:",t,"seconds")
 
-path = r"..\tracking"
+path = r"../tracking"
 os.chdir(path)
 
 NbTips = 0
